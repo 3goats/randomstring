@@ -54,5 +54,5 @@ func TestEval(t *testing.T) {
 
 	//check result attr
 	result := tc.GetOutput("result")
-	fmt.Printf("Created a random string [%s]", result)
+	fmt.Printf("Created Carl's random string [%s]", result)
 }

@@ -2,7 +2,7 @@
   "name": "randomstring",
   "type": "flogo:activity",
   "ref": "github.com/carlskii/randomstring",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "title": "Random String",
   "description": "Creates a random string consisting with the length you specify",
   "author": "retgits",
