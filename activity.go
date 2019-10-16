@@ -48,7 +48,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 		bytes[i] = byte(randInt(65, 90))
 	}
 
-	log.Debugf("Created a random string [%s]", string(bytes))
+	log.Debugf("Created Carls random string [%s]", string(bytes))
 
 	// Set the output value in the context
 	context.SetOutput(result, string(bytes))
