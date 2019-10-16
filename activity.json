@@ -6,7 +6,7 @@
   "title": "Random String",
   "description": "Creates a random string consisting with the length you specify",
   "author": "retgits",
-  "homepage": "https://github.com/retgits/flogo-components/tree/master/activity/randomstring",
+  "homepage": "https://github.com/carlskii/randomstring",
   "inputs":[
     {
       "name": "length",
