@@ -49,6 +49,7 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 	}
 
 	log.Debugf("Created Carl's random string [%s]", string(bytes))
+	log.Infof("Created Carl's random string [%s]", string(bytes))
 
 	// Set the output value in the context
 	context.SetOutput(result, string(bytes))
